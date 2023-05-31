@@ -112,7 +112,7 @@ const initGame = () => {
 }
 // TODO : I want to make a clear button to delete the high score, using "localStorage.clear()"
 
-// localStorage.clear();
+// localStorage.clear("high-score");
 
 updateFoodPosition();
 setIntervalId = setInterval(initGame, 100);
